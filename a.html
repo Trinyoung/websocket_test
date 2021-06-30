@@ -9,7 +9,7 @@
 <body>
     <button> 发送 ws</button>
     <script>
-        const websocket = new WebSocket('wss://www.trinyoung.cn/bookdownload');
+        const websocket = new WebSocket('wss://www.trinyoung.cn/websocket_server/bookdownload');
         websocket.onopen = function (ws) {
             websocket.send('建立连接成功！');
         };
